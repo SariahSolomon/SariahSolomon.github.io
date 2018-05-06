@@ -33,9 +33,8 @@ header,
 footer,
 footer a {
     text-align: center;
-    background-color: #b08ea2
-    ;
-    color:#7d938a;
+    background-color: #b08ea2;
+    color: #7d938a;
 }
 
 header img {
@@ -45,5 +44,5 @@ header img {
 }
 
 footer {
-    font-size:.75rem;
+    font-size: .75rem;
 }
