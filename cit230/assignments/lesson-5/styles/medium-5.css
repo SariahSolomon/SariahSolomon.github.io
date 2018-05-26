@@ -1,22 +1,50 @@
 @media only screen and (min-width:37.5em) {
 
     /* Only CSS write declarations that need to be changed. Do not duplicated declarations that are already established in the main.css */
-    
-    nav button { display:none; }  /* hamburger button does not need to be shown in the medium on up views */
-    
-    section.forecast { 
-        display:block;
-         position: absolute;
-    top: 300px;
-    font-size: 32px;
-    margin: auto;
-    text-align: center;
-    border: solid;
-   
+    nav button {
+        display: none;
     }
-    nav ul li{
-        display:inline-block;
-    }
+    /* hamburger button does not need to be shown in the medium on up views */
+    header img {
+        position: absolute;
+        top: 180px;
+        left: 0px;
     }
 
-  }
+
+    div.forecast {
+        display: block;
+        position: absolute;
+        top: 650px;
+        font-size: 15px;
+        text-align: center;
+        border: solid;
+        width: 100%;
+        margin: auto;
+    }
+      main table{
+        margin:auto;
+    }
+
+    nav ul li {
+        display: inline-block;
+    }
+    main article {
+        position: absolute;
+        top: 750px;
+
+    }
+    #sun{
+        position: absolute;
+        top: 100px;
+        left: 400px;
+        width: 70%;
+    }
+}
+
+footer {
+    position: absolute;
+    top: 2000px;
+}
+
+}

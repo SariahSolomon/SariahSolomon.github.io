@@ -1,4 +1,24 @@
 @media only screen and (min-width:64em) {
-    
+    .weather-summary{
+        position:absolute;
+        top: 600px;
+    }
+    div.forecast{
+        position:absolute;
+        top:900px;
+        left-margin:200px;
+    }
   
-  }
+    #sun{
+        left:700px;
+        width:250px;
+    }
+    main article{
+        positon:absolute;
+        top: 1000px;
+    }
+    footer{
+        position:absolute;
+        top:2300px;
+    }
+}
