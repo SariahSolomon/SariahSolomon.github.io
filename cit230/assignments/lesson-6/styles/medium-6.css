@@ -1,0 +1,31 @@
+@media only screen and (min-width: 37.5em) {
+    
+.hamburger { display:none; 
+    }
+    nav ul.hide{
+        display:block;
+        
+    } 
+    nav ul li{
+        display:inline-block;
+        font-size:20px;
+        text-decoration:none;
+        padding:.2em;
+    
+    }
+    
+    div.forecast {
+        display:block;
+        text-align:center;
+        border:solid;
+        width:85%;
+        margin:auto;
+    }
+
+    main table{
+        margin:auto;
+    }    
+        
+    }
+
+  
