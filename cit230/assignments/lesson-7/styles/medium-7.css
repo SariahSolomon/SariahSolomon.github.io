@@ -1,49 +1,45 @@
 @media only screen and (min-width: 37.5em) {
-    
-.hamburger { display:none; 
+
+    .hamburger {
+        display: none;
     }
-    nav ul.hide{
-        display:block;
-        
-    } 
-    nav ul li{
-        display:inline-block;
-        font-size:20px;
-        text-decoration:none;
-        padding:.2em;
-    
+    nav ul.hide {
+        display: block;
+
     }
-    
+    nav ul li {
+        display: inline-block;
+        font-size: 20px;
+        text-decoration: none;
+        padding: .2em;
+
+    }
+
     div.forecast {
-        display:block;
-        text-align:center;
-        border:solid;
-        width:85%;
-        margin:auto;
+        display: block;
+        text-align: center;
+        border: solid;
+        width: 85%;
+        margin: auto;
     }
 
-    main table{
-        margin:auto;
-    }    
-     #gallery {
-        display:grid;
-       grid-template-columns: 1fr 1fr;
-         padding:1.5em;
-         
-         
+    main table {
+        margin: auto;
     }
-    .grid-item{
-       
-        text-align:center;
-        padding:.5em
-        
-        
-        
+    #gallery {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 1.5em;
+
+
     }
-    #gallery img{
-        max-width:100%
+    .grid-item {
+
+        text-align: center;
+        padding: .5em
     }
-    
+    #gallery img {
+        max-width: 100%
     }
 
-  
+}

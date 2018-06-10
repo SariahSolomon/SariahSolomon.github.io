@@ -1,6 +1,10 @@
 @media only screen and (min-width:64em) {
-    
-    #gallery{
+
+    #gallery {
         grid-template-columns: auto auto auto;
     }
-  }
+    #gallery img:hover {
+        box-shadow: 5px 5px 5px gray;
+
+    }
+}
