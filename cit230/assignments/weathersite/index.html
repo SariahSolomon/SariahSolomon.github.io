@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Franklin City's Brainstorm Weather Page">
+    <title>Brainstorm Weather-Franklin</title>
+   
+    <link href="https://fonts.googleapis.com/css?family=Arimo|Rufina|Sorts+Mill+Goudy" rel="stylesheet">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+
+</head>
+
+<body>
+
+    <header>
+        <h1>Brainstorm Weather</h1>
+
+        <h2 class="subheading">All the weather knowledge you need to protect your livelihood</h2>
+        <img src="images/farmfieldlarge.jpg" sizes="85vw" srcset="images/farmfieldsmall.jpg 300w,
+        images/farmfieldmedium.jpg 800w, 
+        images/farmfieldlarge.jpg 950w" alt="feildheadimage">
+
+    </header>
+    <button class="hamburger" onclick="toggleHam()">&#9776;</button>
+
+    <nav>
+        <ul id="navigation" class="hide">
+            <li><a href="#">Home</a></li>
+            <li><a href="franklin.html">Franklin</a></li>
+            <li><a href="greenville.html">Greenville</a></li>
+            <li><a href="springfield.html">Springfield</a></li>
+            <li><a href="stormcenter.html">Storm Center</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="json">
+
+        </section>
+
+    </main>
+
+    <footer>
+        <section class="contact">
+            Brainstorm Contact information 999.999.9999 123 Main St. Anytown, US 99999 Google Map
+        </section>
+        <section class="footer-bar">&copy;2018 | All Rights Reserved | Brainstorm Weather | <span id="currentdate"></span>
+        </section>
+    </footer>
+    <script src="scripts/hamburger.js">
+    </script>
+    <script src="scripts/current-date.js">
+    </script>
+    <script src="scripts/weatherjson.js">
+    </script>
+    <script src="scripts/wayfinding.js">
+    </script>
+
+</body>
+
+</html>
