@@ -18,8 +18,7 @@ footer {
 header {
     background-color: #4c8264;
     display: flex;
-    flex-wrap: wrap;
-    align-items: column;
+    flex-direction: column;
     justify-content: center;
     padding: 0em;
 
