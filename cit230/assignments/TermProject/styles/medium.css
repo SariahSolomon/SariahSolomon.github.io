@@ -1,0 +1,87 @@
+@media only screen and (min-width: 37.5em) {
+    /*Fonts
+    Title: 'Playfair Display', serif;
+    Headings: 'Lora', serif;
+    body: 'Raleway', sans-serif;
+Colors
+    text: #281d0e
+    header/footer:#243010
+    background:#002626
+    light accent 1:#8bced6
+    light accent 2: #88a756 */
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~All Pages~~~~~~~~~~~~~~~~~~~~~ */
+    header img {
+        display:block;
+        max-width: 165px;
+        float: right;
+        padding: .5em;
+    }
+    header h1 {
+        
+        text-align: left;
+        margin-bottom: 0em;
+        margin-left:15px;
+    }
+
+    header h2 {
+        text-align: left;
+        margin-left:15px;
+        
+        
+    }
+    button{
+        display:none;
+    }
+    nav {
+        display: flex;
+        justify-content: center;
+        background-color: #88a756;
+        text-align: center;
+        padding: 0em;
+        margin-bottom: 0em;
+        margin-top: 0em;
+
+    }
+    nav ul.hide {
+        display:flex;
+        flex-direction:row;
+        list-style-type: none;
+        overflow: hidden;
+        background-color: #88a756;
+    }
+    nav ul li a {
+        color: #281d0e;
+        font-family: "raleway", sans-serif;
+        text-decoration: none;
+        padding: .7em;
+
+    }
+    figure {
+        display: flex;
+        justify-content: center;
+        max-width: 1150px;
+        margin: auto;
+        overflow:hidden;
+    }
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Home Page~~~~~~~~~~~~~~~~~~~~~~~~*/
+    #homepictures{
+        grid-template-columns:auto auto;
+        
+        
+        
+    
+    }
+    .grid-item{
+
+        align-self:center;
+        justify-self: start;
+        max-width:95%;
+    
+    }
+    .grid-item img{
+        padding:.5em;
+        margin:.5em;
+    }
+    

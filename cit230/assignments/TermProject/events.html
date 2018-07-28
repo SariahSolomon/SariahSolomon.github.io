@@ -1,0 +1,116 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="The Mountain Spoke Home">
+    <title>The Mountain Spoke-Home</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Lora|Playfair+Display|Raleway" rel="stylesheet">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+
+</head>
+
+<body>
+    <header>
+        <img src="images/mountian_spoke_logo.png" alt="logo">
+
+        <h1>The Mountain Spoke</h1>
+
+        <h2>Turning your hobby into the experience of a lifetime</h2>
+
+        <button class="hamburger" onclick="toggleHam()">&#9776;</button>
+
+
+
+
+        <nav>
+            <ul id="navigation" class="hide">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="adventure-tours.html">Adventure Tours</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="sales.html">Sales</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact-us.html">Contact Us</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <figure><img src="images/head_image.jpg" sizes="95vw" srcset="images/head_image_medium.jpg 800w, images/head_image_large.jpg 1000w" alt="headimage"></figure>
+
+
+
+    <main>
+        <article>
+            <h2>Bike the Continental Divide</h2>
+            <figure><img src="images/continental_divide_large.jpg" sizes="50vw" srcset="images/continental_divide_small.jpg 250w, images/continental_divide_medium.jpg 450w, images/continental_divide_large.jpg 700w" alt="continentalDivide"></figure>
+            <p>
+                On July 27, 2017 forty-three adventures men and women set out on the adventure of a lifetime. They set out to bike the continental divide. Lined up at the trailhead in Glacier National Park, each biker was armed with a bike, helmet, and a determination to reach the end in New Mexico. Now it's your turn. <br> The Mountain Spoke's annual Bike the Continental Divide event will begin on August 3, 2018, and we want you to join us! This 3100 mile trail is not for the fainthearted, however. Each participant is required to have a bike pass our safety inspections, pass a qualification test themselves, and prove that they have all the required supplies to embark on this once-in-a-lifetime journey. Required supplies include:</p>
+            <ul>
+                <li>Approved Bicycle</li>
+                <li>Helment</li>
+                <li>Quart-size or larger water bottle</li>
+                <li>Enough food for the trip</li>
+                <li>Tire pump</li>
+                <li>Extra inner tubes</li>
+                <li>Appropriate Cloting</li>
+                <li>Sleeping supplies(tent, sleeping bag, hammock, etc.) </li>
+                <li>Basic First Aid kit</li>
+            </ul>
+            <p>
+                Bike the Continental Divide will last approximately 2 weeks and costs $700 to enter. Don't want to do the whole thing? We have a number of shorter and easier options available as well. Interested? Fill out the form below and we'll get back to you as soon as possible with the details!
+            </p>
+            <h2>Registration</h2>
+            <form method="get" action="thanks.html">
+                <fieldset>
+                    <legend>Biker Information</legend>
+                    <label class="biker">Full Name*:<input type="text" name="name" placeholder="John Doe" required></label><br>
+
+                    <label class="biker">Email*:<input type="text" name="email" placeholder="johndoe@example.com" required></label><br>
+                    <label class="biker">Phone Number:<input type="text" name="phone" placeholder="555-867-5309"></label><br>
+
+                    <label class="biker">Date of Birth:<input type="date" name="date"></label><br>
+
+                    <label class="biker">Address*:<input type="text" name="ship-address" placeholder="123 Example St." required>  </label><br>
+
+                    <label class="biker">City*:<input type="text" name="ship-city" placeholder="Anytown" required></label><br>
+
+                    <label class="biker">State*:<input type="text" name="ship-state" placeholder="State" required></label><br>
+
+                    <label class="biker">Country*:<input type="text" name="ship-country" placeholder="Country" required></label>
+                </fieldset>
+                <fieldset>
+                    <legend>Route Information</legend>
+                    <label class="routeradio">Have you participated in this event before?<br>Yes<input type="radio" name="yesno" value="yes"><br>
+                    No<input type="radio" name="yesno" value="no"</label><br>
+                    <label class="routeradio">Do you want to bike the entire trail?<br>Yes<input type="radio" name="yesno" value="yes"><br>
+                        No<input type="radio" name="yesno" vaule="no"></label><br>
+                    <label class="route">If no, approximately how many miles would you like to bike?<input type="text" name="number"</label><br>
+                    <label class="comments" id="comments">Do you have any questions or concerns that we should be aware of while planning your adventure?<input type="text" name="comments"></label>
+                    <label class="sbmtbtn"><input type="submit" name="submit" value="Register"></label>
+                </fieldset>
+
+            </form>
+        </article>
+
+    </main>
+    <footer>
+        <section class="contact-info">
+            The Mountain Spoke Contact Info | 555-867-5309 | 3950 Valley Commons Drive Bozeman, MT
+        </section>
+        <section class="footer-info">
+            &copy; 2018 | The Mountain Spoke | All Rights Reserved | Logo designed using LogoMakr
+        </section>
+    </footer>
+    <script src="scripts/hamburger.js"></script>
+    <script src="scripts/wayfinding.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,277 @@
+/*Fonts
+    Title: 'Playfair Display', serif;
+    Headings: 'Lora', serif;
+    body: 'Raleway', sans-serif;
+Colors
+    text: #281d0e
+    header/footer:#243010
+    background:#002626
+    light accent 1:#8bced6
+    light accent 2: #88a756 */
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~ All Pages ~~~~~~~~~~~~~~~~~~~~*/
+
+* {
+    box-sizing: border-box;
+}
+
+header,
+nav,
+main,
+footer {
+    width: 95%;
+    max-width: 1150px;
+    margin: auto;
+}
+
+body {
+    background-color: #172a01;
+}
+
+header {
+    background-color: #88a756;
+    padding: 0em;
+    margin-bottom: 0em;
+    margin-top: 0em;
+
+}
+
+h1 {
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    font-size: 60px
+}
+
+h2 {
+    font-family: 'Lora', serif;
+    font-size: 32;
+    color: #281d0e;
+    text-align: center;
+}
+
+header img {
+    display: none;
+}
+
+button.hamburger {
+    font-size: 30px;
+    background-color: #88a756;
+    border: none;
+
+
+}
+
+nav ul {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #88a756;
+    font-family: 'Raleway', sans-serif;
+
+
+
+}
+
+nav ul li a {
+    color: #281d0e;
+    text-decoration: none;
+
+
+}
+
+nav ul.hide {
+    display: none;
+}
+nav ul li.active a{
+    text-decoration:underline;
+}
+
+
+figure {
+    display: none;
+}
+
+footer {
+    background-color: #88a756;
+    text-align: center;
+    font-family: 'raleway', sans-serif;
+    color: #281d0e;
+}
+
+p {
+    background-color: #8bced6;
+    font-family: 'raleway', sans-serif;
+    color: #281d0e;
+    font-size: 14px;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Home Page~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+#homepictures {
+    display: grid;
+    grid-template-columns: auto;
+}
+
+#homepictures figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: start;
+    margin: 0em;
+    padding: 0em;
+
+}
+
+#homepictures figure img {
+    max-width: 300px;
+    padding: .5em;
+    margin: 2em;
+}
+
+#homepictures figure p {
+    max-width: 300px;
+    padding: .5em;
+    margin: .5em;
+    text-align: center;
+
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Adventure Tours~~~~~~~~~~~~~~~~~~~*/
+
+.tourListings {
+    margin: 0em;
+    padding-top: 0em;
+    background-color: #8bced6;
+    font-family: 'raleway', sans-serif;
+    color: #281d0e;
+    font-size: 14px;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Events~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+article {
+    background-color: #8bced6;
+}
+
+article h2 {
+    font-size: 30px;
+}
+
+article p,
+ul li {
+    font-family: 'raleway', sans-serif;
+    font-size: 20px;
+    color: #281d0e;
+}
+
+article figure {
+    float: right;
+    margin: 15px;
+
+}
+
+form {
+    color: #281d0e;
+    background-color:#8bced6;
+}
+
+form fieldset {
+    color: #002626;
+}
+
+legend {
+    font-family: 'Lora', serif;
+    color: #002626;
+    font-size: 32px;
+
+}
+
+form label.biker,
+form label.route,
+form label.contact{
+    display: block;
+    padding-top;
+    : .5em;
+}
+
+form label.biker input,
+form label.route input,
+form label.contact input,
+form label.comments input,
+form label.sbmtbtn input{
+    display: block;
+    font-size: 18px;
+    padding: 7px;
+    background-color: beige;
+    border-radius: 5px;
+    border-color: #243010;
+    margin-bottom: 1em;
+}
+
+form label.comments input {
+    
+    width: 80%;
+    height: 150px;
+
+}
+
+label {
+    font-family: 'raleway', sans-serif;
+}
+
+h3 {
+    font-family: 'Lora', serif;
+    background-color: #8bced6;
+    font-size: 32px;
+    text-align: center;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Sales~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+.bikes{
+    background-color:#8bced6
+    
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Services~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+table,
+th,
+td {
+
+    border: 1px solid #002626;
+    border-collapse: collapse;
+}
+
+table {
+    background-color: #8bced6;
+    margin: auto;
+    padding: 2em;
+
+}
+
+thead th {
+    font-size: 32px;
+    background-color: #8bced6;
+}
+
+th {
+    font-family: 'Lora', serif;
+    font-size: 26px;
+    background-color: #88a756;
+    padding: .5em;
+
+
+}
+
+td {
+    font-family: 'raleway', sans-serif;
+    font-size: 14px;
+    padding: .35em;
+
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~Contact Us~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+iframe{
+    float:right;
+}

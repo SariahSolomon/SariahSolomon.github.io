@@ -1,0 +1,29 @@
+@media only screen and (min-width:64em) {
+        /*Fonts
+    Title: 'Playfair Display', serif;
+    Headings: 'Lora', serif;
+    body: 'Raleway', sans-serif;
+Colors
+    text: #281d0e
+    header/footer:#243010
+    background:#002626
+    light accent 1:#8bced6
+    light accent 2: #88a756 */
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~All Pages~~~~~~~~~~~~~~~~~~~~~ */
+    nav ul li{
+        padding-left: 1.5em;
+        padding-right:1.5em;
+        font-size:20px;
+    }
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Home Page~~~~~~~~~~~~~~~~~~~~~~~~~~~~`*/
+
+#homepictures{
+        grid-template-columns: auto auto auto;
+    }
+    .grid-item{
+        padding: 0em;
+        margin-top:.5em;
+    }
+}
